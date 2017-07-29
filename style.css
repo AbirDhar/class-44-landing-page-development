@@ -1,0 +1,211 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+} 
+
+*/*
+font {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+*/*
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+}
+html, body {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+.radio-wallpaper-area {
+    background-color: #ddd;
+    background-image: url("img/Radio.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.radio-wallpaper-area::after {
+    background-color: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo img {
+    margin-right: 10px;
+    max-width: 60px;
+}
+.logo a {
+    color: #ef4043;
+}
+.logo h2 a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #42413e;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.mainmenu ul li.borderd-login a {
+    border: 1px solid;
+    border-radius: 49px;
+    color: #ef4043;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px 25px;
+}
+.mainmenu {
+    padding: 10px 0;
+}
+.header-area {
+    left: 0;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.copy-right-area {
+    background-color: #42413e;
+    bottom: 0;
+    left: 0;
+    padding: 7px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    font-size: 80%;
+}
+.copy-right-area, .copy-right-area a {
+    color: #989c9c;
+    font-weight: normal;
+}
+.copy-right-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.copy-right-area ul li {
+    display: inline-block;
+}
+.copy-right-area ul li a {
+    display: block;
+    padding-left: 30px;
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.hero-area-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-text h1 {
+    color: #42413e;
+    font-size: 45px;
+    font-weight: 800;
+}
+.hero-text {
+    line-height: 1.7;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.hero-text > p {
+    color: #42413e;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-form {
+    font-size: 85%;
+    width: 410px;
+}
+.hero-form input[type="email"] {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #ababc6;
+    width: 59%;
+    font-weight: 700;
+}
+.hero-form input[type="submit"], button[type="submit"] {
+    background-color: #ef4043;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1%;
+    text-transform: uppercase;
+    width: 39%;
+    padding: 15px 16px;
+}
+.social-icon a {
+    color: #42413e;
+    display: inline-block;
+    font-size: 17px;
+    margin-right: 13px;
+    margin-top: 15px;
+}
+
